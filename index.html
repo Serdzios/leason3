@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leason3</title>
+</head>
+<body>
+<main>
+    <hr>
+    <p>Personal Details</p>
+    <form name="myform" action="javascript:completeAndRedirect();">
+        <div>
+            <label>Salutation:
+                <select>
+                    <option>None</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>First name:
+                <input type="text" name="name" autocomplete="off" placeholder="Enter Name"><br>
+            </label>
+        </div>
+        <div>
+            <label>Last name:
+                <input type="text" name="lastname" required placeholder="Enter Last Name"><br>
+            </label>
+        </div>
+        <div>
+            <label> Gender:
+                <input type="radio" name="gender" value="Male"><a>Male</a>
+                <input type="radio" name="gender" value="Female"><a>Female</a> <br>
+            </label>
+        </div>
+        <div>
+            <label> Date of Birth:
+                <input type="date" name="date "> <br>
+            </label>
+        </div>
+        <div>
+            <label>Address:
+                <br>
+                <textarea name="address" style="  width: 400px; height: 200px; " placeholder="Write"></textarea>
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <hr>
+    </form>
+</main>
+
+<script src="main.js"></script>
+
+</body>
+</html>
